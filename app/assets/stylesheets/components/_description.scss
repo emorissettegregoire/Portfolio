@@ -10,9 +10,21 @@
   align-items: center;
 }
 
-.button-contact {
-  padding: 10px;
-  border-radius: 5px;
-  font-weight: lighter;
-  border: 1px solid grey;
+.button-wrapper {
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  a.button-contact {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: lighter;
+    border: 1px solid grey;
+    text-decoration: none;
+  }
+}
+
+.text {
+  border: 2px solid red;
 }
