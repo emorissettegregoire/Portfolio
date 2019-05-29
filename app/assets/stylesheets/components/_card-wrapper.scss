@@ -16,8 +16,15 @@
   border: 2px solid blue;
   align-items: center;
   justify-content: center;
-  // opacity: 0.5;
+  opacity: 0.6;
+  position: relative;
+
   .img {
     display: flex;
   }
+}
+
+.test {
+  color: black;
+  position: absolute;
 }
