@@ -15,11 +15,11 @@
 #initab-card {
   align-items: center;
   justify-content: center;
-  opacity: 0.6;
+  // opacity: 0.6;
   position: relative;
 
   &:hover {
-    opacity: 1;
+    // opacity: 1;
   }
 
   .img {
@@ -41,4 +41,8 @@
 
 #clone {
   position: absolute;
+}
+
+#frame {
+  position: relative;
 }
