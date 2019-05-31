@@ -2,19 +2,18 @@
   border: 2px solid red;
   grid-column: 1;
   grid-row: 2 / span 4;
-  width: 30vw;
-  height: 30vw;
+  width: 28vw;
   text-align: right;
-  margin: auto;
+  margin: 0 auto 0 auto;
   letter-spacing: 1px;
   align-items: center;
 }
 
 .button-wrapper {
-  height: 25%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  padding-bottom: 20px;
 
   a.button-contact {
     padding: 10px;
@@ -26,5 +25,6 @@
 }
 
 .text {
-  border: 2px solid red;
+  border: 2px solid blue;
+  font-size: 16px;
 }

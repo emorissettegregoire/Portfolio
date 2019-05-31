@@ -13,14 +13,13 @@
 }
 
 #initab-card {
-  // border: 10px solid black;
   align-items: center;
   justify-content: center;
   opacity: 0.6;
   position: relative;
 
   &:hover {
-    opacity: 0.8;
+    opacity: 1;
   }
 
   .img {
@@ -33,7 +32,6 @@
 
   .initab-button {
     padding: 20px;
-    // border: 1px solid grey;
     border-radius: 5px;
     color: black;
     background-color: white;
@@ -43,6 +41,4 @@
 
 #clone {
   position: absolute;
-  // max-width:100%;
-  // max-height:100%;
 }
