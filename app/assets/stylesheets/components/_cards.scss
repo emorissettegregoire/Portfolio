@@ -3,7 +3,6 @@
   grid-column: 2 / span 2;
   grid-row: 2 / span 4;
   overflow-y: scroll;
-  background-color: pink;
 }
 
 .card {
@@ -11,17 +10,9 @@
   width: 20vw;
   height: 20vw;
   margin: 100px auto 100px auto;
-}
-
-#initab-card {
   align-items: center;
   justify-content: center;
-  // opacity: 0.6;
   position: relative;
-
-  &:hover {
-    // opacity: 1;
-  }
 
   .img {
     display: flex;
@@ -37,11 +28,20 @@
     color: black;
     background-color: white;
     text-decoration: none;
+    font-weight: lighter;
+    color: grey;
+
+    &:hover {
+      color: #5397D6;
+    }
   }
 }
 
 #initab-card {
   position: relative;
+  &:hover {
+      transform: rotate(5deg);
+    }
 
   #clone {
     position: relative;
@@ -49,5 +49,8 @@
 
   #frame {
     position: absolute;
+    // &:hover {
+    //   transform: rotate(5deg);
+    // }
   }
 }
