@@ -3,6 +3,7 @@
   grid-column: 2 / span 2;
   grid-row: 2 / span 4;
   overflow-y: scroll;
+  background-color: pink;
 }
 
 .card {
@@ -39,10 +40,14 @@
   }
 }
 
-#clone {
-  position: absolute;
-}
-
-#frame {
+#initab-card {
   position: relative;
+
+  #clone {
+    position: relative;
+  }
+
+  #frame {
+    position: absolute;
+  }
 }
