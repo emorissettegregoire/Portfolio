@@ -9,22 +9,40 @@
   border: 2px solid red;
   width: 20vw;
   height: 20vw;
-  margin: 30px auto 30px auto;
+  margin: 100px auto 100px auto;
 }
 
-#initab-clone {
-  border: 2px solid blue;
+#initab-card {
+  // border: 10px solid black;
   align-items: center;
   justify-content: center;
   opacity: 0.6;
   position: relative;
+
+  &:hover {
+    opacity: 0.8;
+  }
 
   .img {
     display: flex;
   }
 }
 
-.test {
-  color: black;
+.initab {
   position: absolute;
+
+  .initab-button {
+    padding: 20px;
+    // border: 1px solid grey;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+  }
+}
+
+#clone {
+  position: absolute;
+  // max-width:100%;
+  // max-height:100%;
 }
