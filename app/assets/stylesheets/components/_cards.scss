@@ -47,10 +47,57 @@
     position: relative;
   }
 
-  #frame {
+  #frame-1 {
     position: absolute;
-    // &:hover {
-    //   transform: rotate(5deg);
-    // }
+
+  }
+}
+
+#airbnb-card {
+  position: relative;
+  &:hover {
+      transform: rotate(5deg);
+    }
+
+  // #clone {
+  //   position: relative;
+  // }
+
+  #frame-2 {
+    position: absolute;
+
+  }
+}
+
+#asyla-card {
+  position: relative;
+  &:hover {
+      transform: rotate(5deg);
+    }
+
+  // #clone {
+  //   position: relative;
+  // }
+
+  #frame-3 {
+    position: absolute;
+
+  }
+}
+
+#new-project-card {
+  position: relative;
+  &:hover {
+      transform: rotate(5deg);
+      // background-color: red;
+    }
+
+  // #clone {
+  //   position: relative;
+  // }
+
+  #frame-4 {
+    position: absolute;
+
   }
 }
