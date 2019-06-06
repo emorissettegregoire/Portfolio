@@ -2,21 +2,22 @@
   // border: 2px solid green;
   grid-column: 1;
   grid-row: 1 / span 6;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
 }
 
 .navbar {
-  // border: 2px solid green;
-  grid-column: 1 / span 1;
-  grid-row: 1 / span 2;
+  border: 2px solid green;
+  grid-column: 1;
+  grid-row: 1;
   background-color: rgb(250,250,250);
-  // opacity: 0.6;
-  width: 100%;
-  height: 20vh;
-  margin-bottom: 10vh;
+  height: 130px;
+  margin-bottom: 30vh;
+
+  .social-icons {
+    border: 2px solid red;
+    margin: auto;
+
+  }
+
   #horn {
     // border: 2px solid red;
     opacity: 0.8;
@@ -25,16 +26,14 @@
   }
 }
 
-// .floral-frame {
-//   position: relative;
-// }
 
 .description {
   // border: 2px solid red;
-  width: 28vw;
+  padding: 30px;
   text-align: center;
   font-size: 14px;
   letter-spacing: 1px;
+  display: block;
 }
 
 .button-wrapper {
@@ -42,7 +41,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 5vw;
 
   a.button-contact {
     padding: 10px;
